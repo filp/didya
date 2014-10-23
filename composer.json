@@ -1,0 +1,19 @@
+{
+    "name": "filp/didya",
+    "description": "Clever suggestions for undefined function/variable/etc errors",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Filipe Dobreira",
+            "email": "dobreira@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Didya": "src/"
+        },
+    },
+    "require": {
+        "filp/whoops": "~1.0"
+    }
+}
